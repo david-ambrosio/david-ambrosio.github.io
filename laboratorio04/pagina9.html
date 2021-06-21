@@ -1,0 +1,202 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Parte 3</title>
+    <script type="text/javascript">
+    //Conectores Lógicos
+    //Permiten unir 2 o más condiciones de un if
+    //Conector Lógico Y
+    //Es verdadero si todas las condiciones son verdaderas
+    //Sintaxis
+    //if(condicion1 && condicion2) -> condicion1=V o condicion2=V -> V
+    //if(condicion1 && condicion2) -> condicion1=V o condicion2=F -> F
+    //Conector Lógico 0
+    //Es falso si todas las condiciones son false
+    //Sintaxis
+    //if(condicion1 && condicion2) -> condicion1=V o condicion2=V -> V
+    //if(condicion1 && condicion2) -> condicion1=V o condicion2=V -> V
+    //if(condicion1 && condicion2) -> condicion1=V o condicion2=V -> V
+
+    //Ejemplo1
+    //Desarrollar una aplicación
+
+    //¿Cuántas variables necesito?
+    // 5
+    //¿Qué tipos de datos necesito?
+    // Real, Entero, Texto
+    //¿Cuáles son las variables que necesito?
+    // sb, bon, sf, cat, tur=""
+    //¿Qué variables voy a leer?
+    // sb, cat, tur
+    //definiendo e inicializando variables
+    var sb=0, bon=0, sf=0, cat=0, tur=0;
+    //capturando valores
+    sb=parseFloat(prompt("Ingrese el sueldo básico:"));
+    cat=parseInt(prompt("Ingrese la categoría: "));
+    tur=prompt("Ingrese el turno: [m] o [t] o [n]");
+    //condicion
+    if(cat==2 && (tur=="m" || tur=="M")){
+        bon=sb*0.07;
+    }else{
+        bon=0;
+    }
+    //realizando operaciones
+    sf=sb+bon
+    //mostrando resultados
+    alert("El sueldo básico es: "+sb);
+    alert("La bonificación es: "+bon);
+    alert("El sueldo final es: "+sf);
+    
+    // Ejemplo 2
+    //Desarrollar una aplicación
+
+    //¿Cuántas variables necesito?
+    // 5
+    //¿Qué tipos de datos necesito?
+    // Entero
+    //¿Cuáles son las variables que necesito?
+    // n1, n2, n3, nma=0, nme
+    //¿Qué variables voy a leer?
+    // n1, n2, n3
+    //definiendo e inicializando variables
+    var n1=0, n2=0, n3=0, nma=0, nme=0;
+    //capturando valores
+    n1=parseInt(prompt("Ingrese el número 1: "));
+    n2=parseInt(prompt("Ingrese el número 2: "));
+    n3=parseInt(prompt("Ingrese el número 3: "));
+    //condicion
+    if(n1>n2 && n1>n3){
+        nma=n1;
+    }else{
+        if(n2>n1 && n2>n3){
+            nma=n2;
+        }else{
+            nma=n3;
+        }
+    }
+    if(n1<n2 && n1<n3){
+        nme=n1;
+    }else{
+        if(n2<n1 && n2<n3){
+            nme=n2;
+        }else{
+            nme=n3;
+        }
+    }
+
+    //mostrando resultados
+    document.write("El número mayor es: "+nma+"<br>");
+    document.write("El número menor es: "+nme+"<br>");
+    document.write("<hr>");
+
+    </script>
+</head>
+<body>
+    
+</body>
+=======
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Parte 3</title>
+    <script type="text/javascript">
+    //Conectores Lógicos
+    //Permiten unir 2 o más condiciones de un if
+    //Conector Lógico Y
+    //Es verdadero si todas las condiciones son verdaderas
+    //Sintaxis
+    //if(condicion1 && condicion2) -> condicion1=V o condicion2=V -> V
+    //if(condicion1 && condicion2) -> condicion1=V o condicion2=F -> F
+    //Conector Lógico 0
+    //Es falso si todas las condiciones son false
+    //Sintaxis
+    //if(condicion1 && condicion2) -> condicion1=V o condicion2=V -> V
+    //if(condicion1 && condicion2) -> condicion1=V o condicion2=V -> V
+    //if(condicion1 && condicion2) -> condicion1=V o condicion2=V -> V
+
+    //Ejemplo1
+    //Desarrollar una aplicación
+
+    //¿Cuántas variables necesito?
+    // 5
+    //¿Qué tipos de datos necesito?
+    // Real, Entero, Texto
+    //¿Cuáles son las variables que necesito?
+    // sb, bon, sf, cat, tur=""
+    //¿Qué variables voy a leer?
+    // sb, cat, tur
+    //definiendo e inicializando variables
+    var sb=0, bon=0, sf=0, cat=0, tur=0;
+    //capturando valores
+    sb=parseFloat(prompt("Ingrese el sueldo básico:"));
+    cat=parseInt(prompt("Ingrese la categoría: "));
+    tur=prompt("Ingrese el turno: [m] o [t] o [n]");
+    //condicion
+    if(cat==2 && (tur=="m" || tur=="M")){
+        bon=sb*0.07;
+    }else{
+        bon=0;
+    }
+    //realizando operaciones
+    sf=sb+bon
+    //mostrando resultados
+    alert("El sueldo básico es: "+sb);
+    alert("La bonificación es: "+bon);
+    alert("El sueldo final es: "+sf);
+    
+    // Ejemplo 2
+    //Desarrollar una aplicación
+
+    //¿Cuántas variables necesito?
+    // 5
+    //¿Qué tipos de datos necesito?
+    // Entero
+    //¿Cuáles son las variables que necesito?
+    // n1, n2, n3, nma=0, nme
+    //¿Qué variables voy a leer?
+    // n1, n2, n3
+    //definiendo e inicializando variables
+    var n1=0, n2=0, n3=0, nma=0, nme=0;
+    //capturando valores
+    n1=parseInt(prompt("Ingrese el número 1: "));
+    n2=parseInt(prompt("Ingrese el número 2: "));
+    n3=parseInt(prompt("Ingrese el número 3: "));
+    //condicion
+    if(n1>n2 && n1>n3){
+        nma=n1;
+    }else{
+        if(n2>n1 && n2>n3){
+            nma=n2;
+        }else{
+            nma=n3;
+        }
+    }
+    if(n1<n2 && n1<n3){
+        nme=n1;
+    }else{
+        if(n2<n1 && n2<n3){
+            nme=n2;
+        }else{
+            nme=n3;
+        }
+    }
+
+    //mostrando resultados
+    document.write("El número mayor es: "+nma+"<br>");
+    document.write("El número menor es: "+nme+"<br>");
+    document.write("<hr>");
+
+    </script>
+</head>
+<body>
+    
+</body>
+>>>>>>> e8b5c827946704ad76fcbe5e9a12008f01f0fe47
+</html>
