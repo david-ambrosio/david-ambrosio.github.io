@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: gainsboro;
+  position: initial;
+  overflow: hidden;
+  border: 5px solid white;
+  width: auto;
+}
+
+li {
+  float: left;
+  text-align: center;
+  border: 1px solid #555;
+  background: linear-gradient(180deg,#2474C2 0%,#A37FFA 100%)
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+li a.activo {
+  background-color: green;
+  color: white;
+}
+
+li a:hover:not(.activo) {
+  background: lightcoral;
+  color: white;
+}
+
+.menu{
+  text-align: center;
+  background: linear-gradient(180deg,#2474C2 0%,#071347 100%);
+  margin:5px 100px;
+  height:auto;
+  border-radius:5px;
+  padding:10px;
+  font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  .op{
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 10px;
+    font-weight: bold;
+  }
+  .body{
+  background-color:#8ADFC9;
+  margin:5px 100px;
+  height:auto;
+  border-radius:5px;
+  padding:10px;
+  font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  .titulo {
+    font-size: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    color: #431382;
+    text-align: center;
+   }
+  
+  .container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 0;
+    max-width: 1200px;
+  }
+  
+  .subtitulo_servicios{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .container_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .card{
+    width: 45%;
+    padding: 10px 0;
+    overflow: hidden;
+    background: linear-gradient(180deg,#2474C2 0%,#071347 100%);
+    border-radius: 10px;
+    position: relative;
+    text-align: left;
+    margin-bottom: 60px;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-shadow: 0 0 6px gray;
+  }
+  
+  .card_img{
+    width: 95%;
+    height: 300px;
+    object-position: center;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 10px;
+  }
+  
+  .card_texto{
+    color: white;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;	
+  }
+  
+  .card_lista{
+    font-weight: bold;
+    margin: 25px 0 12px;
+    font-size: 18px;
+  }
+  
+  .card_titulo{
+    font-size: 30px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: lightcoral;
+    text-align: center;
+  }
+  
+  .card_parrafo{
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  
+  .card_boton{
+    display: block;
+    background: linear-gradient(180deg,#2474C2 0%,#A37FFA 100%);
+    border-radius: 7px;
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 0;
+    margin-top: 10px;
+  }
+  
+  .card_boton:hover{
+    background: linear-gradient(180deg,#A37FFA 0%,#2474C2 100%);
+  }
