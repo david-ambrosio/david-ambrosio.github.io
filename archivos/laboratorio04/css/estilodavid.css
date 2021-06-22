@@ -114,7 +114,7 @@ li a:hover:not(.activo) {
   
   .card_img{
     width: 95%;
-    height: 400px;
+    height: 300px;
     object-position: center;
     border-radius: 20px 20px 20px 20px;
     margin-left: 10px;
