@@ -17,43 +17,43 @@
     
     @keyframes sliderDavid{
         0%,10%{
-            background-image: url('/img/Miraflores.jpg');
+            background-image: url('imagenes/Miraflores.jpg');
             opacity: 1;
         }
         11%,20%{
-            background-image: url('/img/Huacachina-noche.jpg');
+            background-image: url('imagenes/Huacachina-noche.jpg');
             opacity: 1;
         }
         21%,30%{
-            background-image: url('/img/surf.jpg');
+            background-image: url('imagenes/surf.jpg');
             opacity: 1;
         }
         31%,40%{
-            background-image: url('/img/Shaki.jpeg');
+            background-image: url('imagenes/Shaki.jpeg');
             opacity: 1;
         }
         41%,50%{
-            background-image: url('/img/caballos.jpg');
+            background-image: url('imagenes/caballos.jpg');
             opacity: 1;
         }
         51%,60%{
-            background-image: url('/img/tortuga3.jpg');
+            background-image: url('imagenes/tortuga3.jpg');
             opacity: 1;
         }
         61%,70%{
-            background-image: url('/img/Yatra.jpg');
+            background-image: url('imagenes/Yatra.jpg');
             opacity: 1;
         }
         71%,80%{
-            background-image: url('/img/montañas.jpg');
+            background-image: url('imagenes/montañas.jpg');
             opacity: 1;
         }
         81%,90%{
-            background-image: url('/img/auto8.jpg');
+            background-image: url('imagenes/auto8.jpg');
             opacity: 1;
         }
         91%,100%{
-            background-image: url('/img/Pastoruri.jpg');
+            background-image: url('imagenes/Pastoruri.jpg');
             opacity: 1;
         }
     }
@@ -91,7 +91,7 @@ opacity: 1;
 }
 
 .principal .trabajos {
-background-image: url('/img/Fondo17.gif');
+background-image: url('imagenes/Fondo17.gif');
 }
 
 .principal .trabajos .titulo {
