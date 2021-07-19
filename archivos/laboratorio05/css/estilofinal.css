@@ -1,0 +1,306 @@
+@font-face {
+    font-family: "MuseoModerno";
+    src: url("/fonts/MuseoModerno-VariableFont_wght.ttf");
+}
+/* aplicamos estilos universales */
+* {
+    margin: 0;
+    padding: 0;
+    }
+    .header{
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        background-size: 100% 100%;
+        animation: sliderDavid 50s infinite;
+    }
+    
+    @keyframes sliderDavid{
+        0%,10%{
+            background-image: url('/img/Miraflores.jpg');
+            opacity: 1;
+        }
+        11%,20%{
+            background-image: url('/img/Huacachina-noche.jpg');
+            opacity: 1;
+        }
+        21%,30%{
+            background-image: url('/img/surf.jpg');
+            opacity: 1;
+        }
+        31%,40%{
+            background-image: url('/img/Shaki.jpeg');
+            opacity: 1;
+        }
+        41%,50%{
+            background-image: url('/img/caballos.jpg');
+            opacity: 1;
+        }
+        51%,60%{
+            background-image: url('/img/tortuga3.jpg');
+            opacity: 1;
+        }
+        61%,70%{
+            background-image: url('/img/Yatra.jpg');
+            opacity: 1;
+        }
+        71%,80%{
+            background-image: url('/img/montañas.jpg');
+            opacity: 1;
+        }
+        81%,90%{
+            background-image: url('/img/auto8.jpg');
+            opacity: 1;
+        }
+        91%,100%{
+            background-image: url('/img/Pastoruri.jpg');
+            opacity: 1;
+        }
+    }
+/* -------------------TRABAJOS------------------- */
+/* aplicamos estilos al contenedor */
+.contenedor {
+width: 80%;
+margin: auto;
+background-color: #CE845E;
+}
+.principal{
+animation-name: shutter-in-top;
+animation-duration: 5s;
+animation-timing-function: ease;
+animation-delay: 0s;
+animation-iteration-count: 1;
+animation-direction: normal;
+animation-fill-mode: none;
+}
+@keyframes shutter-in-top {
+0%{
+-webkit-transform: rotateX(-100deg);
+transform: rotateX(-100deg);
+-webkit-transform-origin: top;
+transform-origin: top;
+opacity: 0;
+}
+100%{
+-webkit-transform: rotateX(0deg);
+transform: rotateX(0deg);
+-webkit-transform-origin: top;
+transform-origin: top;
+opacity: 1;
+} 
+}
+
+.principal .trabajos {
+background-image: url('/img/Fondo17.gif');
+}
+
+.principal .trabajos .titulo {
+font-family: "MuseoModerno";
+font-size: 40px;
+padding-top: 20px;
+margin-bottom: 20px;
+font-weight: bolder;
+color: #431382;
+text-align: center;
+}
+
+.principal .trabajos .contenedortrabajos {
+justify-content: space-between;
+display: flex;
+justify-content: center;
+border-radius: 8px 8px 8px 8px;
+padding-top: 10px;
+padding-bottom: 10px;
+animation-name: shutter-in-top;
+animation-duration: 5s;
+animation-timing-function: ease;
+animation-delay: 5s;
+animation-iteration-count: 1;
+animation-direction: normal;
+animation-fill-mode: none;
+}
+@keyframes shutter-in-top {
+0%{
+-webkit-transform: rotateX(-100deg);
+transform: rotateX(-100deg);
+-webkit-transform-origin: top;
+transform-origin: top;
+opacity: 0;
+}
+100%{
+-webkit-transform: rotateX(0deg);
+transform: rotateX(0deg);
+-webkit-transform-origin: top;
+transform-origin: top;
+opacity: 1;
+} 
+}
+
+.principal .trabajos .contenedortrabajos .trabajo {
+width: 30%;
+max-width: 400px;
+max-height: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+background-color: #2CD5A7;
+margin-right: 5%;
+margin-left: 5%;
+border-radius: 8px;
+justify-content: space-between;
+display: inline-table;
+justify-content: center;
+}
+
+.formulario {
+padding: 20px;
+border-radius: 7px;
+background: #fff;
+}
+
+.formulario input[type="text"], .formulario input[type="number"], .formulario input[type="password"] {
+display: block;
+width: 90%;
+margin-top: 5px;
+margin-bottom: 10px;
+padding-top: 5px;
+padding-left: 20px;
+padding-bottom: 5px;
+border: none;
+border-bottom: 2px solid #ccc;
+font-family: cursive;
+font-size: 18px;
+}
+.formulario input[type="text"]:focus, .formulario input[type="number"]:focus, .formulario input[type="password"]:focus {
+border-bottom: 2px solid #246eb9;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: #246eb9;
+}
+
+select {
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-family: cursive;
+    font-weight: normal;
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px solid;
+}
+
+.boton{
+width: 100%;
+text-align: center;
+background: #9B6873;
+color: #fff;
+border:none;
+display: block;
+padding: 7px 10px 10px 10px;
+cursor: pointer;
+border-radius: 6px 6px 6px 6px;
+font-size: 20px;
+margin-top: 1px;
+font-weight: bolder;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formulario .boton:hover{
+background-color: #2CD5A7;
+}
+.limpiar{
+width: 100%;
+text-align: center;
+background: #4357ad;
+color: #fff;
+border:none;
+display: block;
+padding: 7px 10px 10px 10px;
+cursor: pointer;
+border-radius: 6px 6px 6px 6px;
+font-size: 20px;
+margin-top: 1px;
+font-weight: bolder;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formulario .limpiar:hover{
+background-color: #2CD5A7;
+}
+
+.botondeopciones{
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+margin-bottom: 2px;
+}
+
+.formulario .botondeopciones{
+color: #424242;
+margin-top: 5px;
+padding: 10px 10px;
+text-align: center;
+font-size: 15px;
+}
+.formulario .botondeopciones label{
+margin-right: 10px;
+font-family: cursive;
+color: black;
+}
+.formulario input[type="radio"]:checked+.botondeopciones label{
+background-color: #f9a03f;
+color: #fff;
+}
+.casilladeverificacion{
+text-align: center;
+color: #424242;
+font-size: 15px;
+}
+.casilladeverificacion label{
+margin-left: 10px;
+font-family: cursive;
+color: black;
+}
+
+table {
+width: 100%;
+border: 4px solid darkorange;
+border-collapse: collapse;
+align-content: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+thead th {
+border: 4px solid #CE845E;
+text-align: center;
+padding: 12px 12px 12px 12px;
+}
+th {
+height: 30px;
+padding-right: 10px;
+padding-left: 10px;
+text-align: center;
+background-color: #246eb9;
+color: white;
+font-weight: bolder;
+font-size: 15px;
+}
+tbody td {
+border: 4px solid #CE845E;
+text-align: center;
+padding: 12px 12px 12px 12px;
+font-weight: bolder;
+background-color: lightskyblue;
+color: black;
+font-size: 15px;
+}
+/* agregamos un fondo y un color a la letra cuando pasemos por las filas */
+table tbody td:hover {
+background-color: lightgoldenrodyellow;
+color: darkblue;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase - Parte 1</title>
+    <link rel="stylesheet" type="text/css" href="css/estilosdavid.css">
+    <script src="https://kit.fontawesome.com/feaadaa574.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Inicia la Sección Principal -->
+<section class="principal">
+    <!-- Inicia la Sección Trabajos -->
+    <section class="trabajos">
+        <div class="contenedor">
+        <div class="header">
+            <br><hr><h3 class="titulo">REGISTRO DE PRODUCTOS</h3><hr>
+            <div class="contenedortrabajos">
+                <div class="trabajo">
+                <form action="" class="formulario">
+                    <label for="txtNom">Nombre del Producto:</label>
+                    <input type="text" name="txtNom" id="txtNom" placeholder="Ingrese el nombre">
+                    <br>
+                    <label for="txtPre">Precio del Producto:</label>
+                    <input type="number" name="txtPre" id="txtPre" placeholder="Ingrese el precio">
+                    <br>
+                    <label for="txtCan">Cantidad:</label>
+                    <input type="number" name="txtCan" id="txtCan" placeholder="Ingrese la cantidad">
+                    <br>
+                    <label for="cboCategoria">Categoria:</label>
+                    <select name="cboCategoria" id="cboCategoria">
+                        <option value="0">Seleccione una categoria</option>
+                        <option value="1">Entretenimiento</option>
+                        <option value="2">Tecnología</option>
+                        <option value="3">Línea Blanca</option>
+                    </select>
+                    <br>
+                    <input class="boton" type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar">
+                </form>                
+                </div>
+
+                <div class="trabajo">
+                    <table id="tbProducto" class="formulario">
+                        <thead>
+                            <th>Producto</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Categoria</th>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</section>
+    
+    <script src="js/producto.js" type="text/javascript"></script>
+    <script src="js/bibliotecaproducto.js" type="text/javascript"></script>
+</body>
+</html>
